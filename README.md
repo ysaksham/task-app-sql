@@ -1,33 +1,32 @@
 # task-app-sql
 
-#Dependencies 
+# Dependencies 
 
-1)express
+- express
+- pg
+- sequelize
 
-2)pg
+# Commands to install
 
-3)sequelize
+- npm install express@latest
 
-#Commands to install
+- npm install pg@latest
 
-1)npm install express
-
-2)npm install pg
-
-3)npm install sequelize
+- npm install sequelize@latest
 
 Note : Before installing these commands, download and install Node.js. Node.js 0.10 or higher is required.
 
-#Database Configuration
+# Database Configuration
 
-1)Install postgres
+- Install postgres
 
-2)Install PgAdmin and set the username and password
+- Install PgAdmin and set the username and password
 
-3)Inside the config folder. Change the user, password, DB in the db.config.js file.
+- Inside the config folder. Change the user, password, DB in the db.config.js file.
 
-#Dependencies and Steps to run the command
+# Dependencies and Steps to run the command
 
-1)Install the Postman for checking the endpoints
+- Install the Postman for checking the endpoints
 
-commands to run - node index.js
+# commands to run
+- node index.js
